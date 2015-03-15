@@ -1,0 +1,24 @@
+﻿@model IList<string>
+
+@{
+    ViewBag.Title = "Pdf list";
+
+}
+
+<h2>Pdf list</h2>
+
+ここで患者検索.pdfはHL7準拠で格納しているイメージ.
+
+
+<form method="post">
+    <div>PatientId : <input type="text" size="20" maxlength="20" /></div>
+    <div><input type="submit" value="検索" /></div>
+    <div id="divPdfList">
+        <table>
+            @foreach(var path in Model)
+            {
+                <tr><td>@Html.ActionLink(path,path.Length.ToString())</td></tr>
+            }
+        </table>
+    </div>
+</form>
