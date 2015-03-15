@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Configuration.cs" />
     <Compile Include="FileSearch.cs" />
+    <Compile Include="PdfHeaderFooterPage.cs" />
+    <Compile Include="PdfUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

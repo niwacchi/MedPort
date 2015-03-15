@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfViewer", "PdfViewer\PdfV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedPort.Commons", "MedPort.Commons\MedPort.Commons.csproj", "{81DE27C7-48CB-4BC9-95EA-70BCE152271A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTest", "PdfTest\PdfTest.csproj", "{6ECE2E89-2708-4AAF-B17E-4D0C71EE8925}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{81DE27C7-48CB-4BC9-95EA-70BCE152271A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81DE27C7-48CB-4BC9-95EA-70BCE152271A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81DE27C7-48CB-4BC9-95EA-70BCE152271A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ECE2E89-2708-4AAF-B17E-4D0C71EE8925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECE2E89-2708-4AAF-B17E-4D0C71EE8925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECE2E89-2708-4AAF-B17E-4D0C71EE8925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECE2E89-2708-4AAF-B17E-4D0C71EE8925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
